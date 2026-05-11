@@ -23,7 +23,7 @@ Pour chaque tâche, remplir les 4 colonnes :
 
 | Tâche | Prompt envoyé | Réponse (résumé) | Ce que vous avez modifié |
 |---|---|---|---|
-| Lecture du bloc | "Explique ce bloc Stata ligne par ligne, identifie les choix discutables et propose une alternative pour chacun." | ... | ... |
+| Lecture du bloc | "Commente chaque bloc du code contenu dans 1_cleaning.do. Pour chaque bloc, réponds à : 1. Que fait cette opération ? 2. Pourquoi est-elle nécessaire ? 3. Que se passerait-il si on ne l'appliquait pas ?" | L'IA a traduit les commentaires et structuré les explications en répondant aux trois points pour chaque section majeure du code. | Dans le cas où on utilisait pas describe, l'IA expliquait qu'on risquerait de travailler avec une base corrompue mais describe permet plutot d'avoir un aperçu global du dataset. |
 | Double traitement pays/région | "Pourquoi extraire le pays depuis l'ID ET corriger manuellement via replace sur la Région ? Quels risques ?" | ... | ... |
 | Suppression de variables | "La suppression de Ordredesaisie et PAYS est-elle justifiée ? Que risque-t-on à les supprimer ?" | ... | ... |
 
